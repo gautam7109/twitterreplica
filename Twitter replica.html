@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="utf-8">
+         <title>Twitter </title>
+         
+         <link href="index.css" rel="stylesheet">
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+ 
+     </head>
+     <body class="segoe" style="background: rgb(230, 236, 240);">
+        <div class="jumbotron">
+            <div class="topcontainer">
+             <div class="topbar">
+                 <i class="fa fa-twitter logocenter" aria-hidden="true"></i>
+             </div>
+         </div>
+ 
+             <div class="AppContent wrapper wrapper-signup" id="page-container">
+                 <link rel="stylesheet" href="https://abs.twimg.com/a/1511833274/css/t1/t1_signup.bundle.css">
+            </div>
+            <h1><b>Twitter Replica</b></h1><br>
+        <div>
+             <div class="wallcontainer">
+                 <div class="profilecard">
+                     <div class="profilecardhead"></div>
+                     <div class="profilecardimagediv">
+                         <img src="http://3.bp.blogspot.com/-JCYefwq__2U/TxCfC3s1ZpI/AAAAAAAAKcM/u5mw7qPAL0w/s300-c/Camilla-Belle-6.jpg">
+                     </div>
+ 
+                     <div class="profilecardnameidcont">
+                         <div class="profilecardnamecont">
+                             <span id="profilecardname"></span>
+                         </div>
+                         <span id="profilecarduid"></span>
+                     </div>
+ 
+                     <div class="profilecardstatsdiv">
+                         <ul class="profilecardstatslist">
+                             <li class="profilecardstatslistitem">
+                                 <span class="dispblk">
+                                     <span class="statslistitemhead">Tweets</span>
+                                     <span id="statslistitemcount" class="statslistitemcount">0</span>
+                                 </span>
+                             </li>
+ 
+                             <li class="profilecardstatslistitem">
+                                 <span class="dispblk">
+                                     <span class="statslistitemhead">Following</span>
+                                     <span class="statslistitemcount">100</span>
+                                 </span>
+                             </li>
+ 
+                             <li class="profilecardstatslistitem">
+                                 <span class="dispblk">
+                                     <span class="statslistitemhead">Followers</span>
+                                     <span class="statslistitemcount">250</span>
+                                 </span>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+ 
+ 
+                 <div class="rightcontainer">
+                     <div class="posttweetcontainer">
+                         <img class="posttweetprofimg" src="http://3.bp.blogspot.com/-JCYefwq__2U/TxCfC3s1ZpI/AAAAAAAAKcM/u5mw7qPAL0w/s300-c/Camilla-Belle-6.jpg">
+                         <div class="ml56px">
+                             <div class="posttweettacontainer">
+                                 <textarea id="posttweetta" class="posttweetta" placeholder="What's happening?"></textarea>
+                                 <div class="posttweetcountcont">
+                                     <span class="posttweetcount"><span id="totalchars">0</span>/250</span>
+                                 </div>
+                             </div>
+                             <div class="posttweetbutcont">
+                                 <button id="posttweetbut" class="posttweetbut">Tweet</button>
+                             </div>
+                         </div>
+                     </div>
+                     <div>
+                         <ul id="tweetscontainer" class="tweetscontainer">
+ 
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+          <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+ 
+         <script
+             src="https://code.jquery.com/jquery-3.2.1.min.js"
+             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+             crossorigin="anonymous"></script>
+         <script src="profile.js"></script> 
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     </body>
+</html>
